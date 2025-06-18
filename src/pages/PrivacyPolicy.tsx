@@ -2,7 +2,7 @@ import React from "react";
 
 export function PrivacyPolicy() {
   return (
-    <div className="pt-14 px-4 max-w-180">
+    <div className="pt-14 px-4 max-w-250">
     <h1 className="text-2xl font-bold mb-4">License for this website</h1>
       <strong>eeGuardiansWeb@0.0.1</strong> - MIT License
       <pre className="whitespace-pre-wrap mt-4">Copyright (c) 2025 Hyunho Jeong All rights reserved.</pre>

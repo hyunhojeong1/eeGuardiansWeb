@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
@@ -40,11 +40,7 @@ function App() {
           <Header />
           <main className="flex-1 p-4">
             <Routes>
-
-              
               <Route path="/eeGuardiansWeb/" element={<Home />} />
-
-
               <Route path="/eeGuardiansWeb/app/:id" element={<AppLanding />} />
               <Route path="/eeGuardiansWeb/privacy/:id" element={<PrivacyPolicy />} />
               <Route path="/eeGuardiansWeb/contact" element={<Contact />} />
